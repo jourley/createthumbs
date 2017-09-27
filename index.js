@@ -5,8 +5,8 @@ var gm = require('gm').subClass({ imageMagick: true }); // Enable ImageMagick in
 var util = require('util');
 
 // constants
-var MAX_WIDTH  = 700;
-var MAX_HEIGHT = 700;
+var MAX_WIDTH  = 500;
+var MAX_HEIGHT = 500;
 
 // get reference to S3 client 
 var s3 = new AWS.S3();
